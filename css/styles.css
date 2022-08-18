@@ -1,0 +1,161 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--gray);
+}
+:root {
+  --white: #fff;
+  --blue: #2196f3;
+  --black: #000000;
+  --gray: #212121;
+  --lightgray: #757575;
+  --bgcolor: #2f303a;
+  --footeradress: #ffffff99;
+  --btnbg: #f5f4fa;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.logo-web {
+  color: var(--blue);
+}
+.navi {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.17;
+  font-size: 14px;
+  color: var(--gray);
+}
+.navi:hover,
+.navi:focus {
+  color: var(--blue);
+}
+.menu-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  background-color: var(--btnbg);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.contact {
+  color: var(--lightgray);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--blue);
+}
+.projects {
+  color: var(--lightgray);
+  size: 16px;
+  line-height: 1.88;
+}
+.projects-description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.footer-adres {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-adres {
+  color: var(--footeradress);
+  text-decoration: none;
+}
+.footer-adres:hover,
+.footer-adres:focus {
+  color: var(--blue);
+}
+.adress-footer {
+  color: var(--white);
+}
+.order-btn {
+  font-weight: 700;
+  font-size: 16px;
+  font-weight: 1.88;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--white);
+}
+.header-back {
+  background-color: var(--bgcolor);
+}
+.description-head {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.description {
+  color: var(--lightgray);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.our-team {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  font-weight: 700;
+}
+
+.work-as {
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--lightgray);
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.17;
+}
+.our-job {
+  text-align: center;
+  line-height: 1.17;
+  font-size: 36px;
+  font-weight: 700;
+}
+.footer-bg {
+  background-color: var(--bgcolor);
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.logo-footer-web {
+  color: var(--blue);
+}
+.footer-adres:hover,
+.footer-adres:focus {
+  color: var(--blue);
+}
