@@ -1,11 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--gray);
+  margin-left: -15px;
+  margin-right: -15px;
 }
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+h1 {
+  margin: 0;
 }
 :root {
   --white: #fff;
@@ -115,7 +120,6 @@ figure {
   width: 200px;
   height: 50px;
   border: none;
-
   text-align: center;
 }
 .main-header {
@@ -124,10 +128,11 @@ figure {
   line-height: 1.36;
   text-align: center;
   color: var(--white);
+  margin-bottom: 30px;
 }
 .header-section {
   background-color: var(--bgcolor);
-  height: 800px;
+
   display: flex;
 }
 .description-head {
@@ -148,6 +153,7 @@ figure {
   margin-bottom: 50px;
   display: block;
   padding-top: 94px;
+  margin-top: 0px;
 }
 
 .work-as {
@@ -155,21 +161,29 @@ figure {
   line-height: 1.17;
   text-align: center;
   color: var(--lightgray);
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .worker-name {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
   line-height: 1.17;
+  margin-bottom: 0px;
+  margin-top: 30px;
 }
 .our-job {
   text-align: center;
   line-height: 1.17;
   font-size: 36px;
   font-weight: 700;
+  margin-top: 0px;
 }
 .footer-bg {
   background-color: var(--bgcolor);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 252px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -188,8 +202,9 @@ figure {
 }
 
 .head {
-  height: 80px;
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .head .container {
   display: flex;
@@ -219,10 +234,16 @@ figure {
   margin: 0 auto;
   width: 1200px;
 }
+.section-description {
+  background-color: #e5e5e5;
+}
 .description-container {
   display: flex;
   padding-top: 120px;
   padding-bottom: 94px;
+}
+.section-job {
+  background-color: #e5e5e5;
 }
 .our-job-photos {
   display: flex;
@@ -231,7 +252,6 @@ figure {
   justify-content: space-between;
 }
 .team {
-  height: 648px;
   background-color: #f5f4fa;
 }
 
@@ -250,4 +270,8 @@ figure {
 
 .member-personal-last {
   margin-right: 0;
+}
+.adress-footer {
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
