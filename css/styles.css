@@ -2,6 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--gray);
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 :root {
   --white: #fff;
   --blue: #2196f3;
@@ -12,6 +17,9 @@ body {
   --footeradress: #ffffff99;
   --btnbg: #f5f4fa;
 }
+figure {
+  margin: 0;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -19,6 +27,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  margin-right: 47px;
 }
 .logo-web {
   color: var(--blue);
@@ -29,6 +38,7 @@ body {
   line-height: 1.17;
   font-size: 14px;
   color: var(--gray);
+  margin-left: 46px;
 }
 .navi:hover,
 .navi:focus {
@@ -54,10 +64,14 @@ body {
   font-size: 14px;
   line-height: 1.17;
   text-decoration: none;
+  margin-left: 371px;
 }
 .contact:hover,
 .contact:focus {
   color: var(--blue);
+}
+.contact-second-item {
+  margin-left: 50px;
 }
 .projects {
   color: var(--lightgray);
@@ -95,6 +109,14 @@ body {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  display: flex;
+  padding-left: 45px;
+  padding-top: 15px;
+  width: 200px;
+  height: 50px;
+  border: none;
+
+  text-align: center;
 }
 .main-header {
   font-weight: 900;
@@ -103,8 +125,10 @@ body {
   text-align: center;
   color: var(--white);
 }
-.header-back {
+.header-section {
   background-color: var(--bgcolor);
+  height: 800px;
+  display: flex;
 }
 .description-head {
   font-weight: 700;
@@ -121,6 +145,9 @@ body {
   line-height: 1.17;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 50px;
+  display: block;
+  padding-top: 94px;
 }
 
 .work-as {
@@ -158,4 +185,69 @@ body {
 .footer-adres:hover,
 .footer-adres:focus {
   color: var(--blue);
+}
+
+.head {
+  height: 80px;
+  display: flex;
+}
+.head .container {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  align-content: center;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.contact-head {
+  display: flex;
+}
+.header-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0px 200px 0px;
+}
+.main-header-text {
+  display: flex;
+  padding-left: 40px;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.description-container {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 94px;
+}
+.our-job-photos {
+  display: flex;
+  margin-top: 50px;
+  padding-bottom: 94px;
+  justify-content: space-between;
+}
+.team {
+  height: 648px;
+  background-color: #f5f4fa;
+}
+
+.member-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member-personal {
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-bottom: 94px;
+}
+
+.member-personal-last {
+  margin-right: 0;
 }
